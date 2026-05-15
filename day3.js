@@ -89,3 +89,12 @@ console.log(result);
 // task 56
 let number = 0;
 console.log(number || 'invalid');
+//  task 7
+let bio = {
+  name: 'shawon',
+  adrress: {
+    city: 'dhaka',
+  },
+  age: 44,
+};
+console.log(bio.address?.city);
