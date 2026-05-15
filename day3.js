@@ -54,12 +54,34 @@
 // };
 // console.log(bio.address?.city);
 
-// task 1
-let num1 = 33;
-let res1 = num1 % 2 == 0 ? 'even number' : 'odd numebr';
-console.log(res1);
+// // task 1
+// let num1 = 33;
+// let res1 = num1 % 2 == 0 ? 'even number' : 'odd numebr';
+// console.log(res1);
 
-//task 2
-let num2 = 2;
-let res2 = num2 ** 10;
-console.log(res2);
+// //task 2
+// let num2 = 2;
+// let res2 = num2 ** 10;
+// console.log(res2);
+
+// let x = 10;
+// x += 5; // er mane = x= x+5
+// console.log(x);
+// let i = 10;
+//task 3
+// let b = 5;
+// let y = b++;
+// console.log(b);
+// console.log(y);
+// c
+
+// task4---
+function someFunction() {
+  console.log('Called');
+}
+
+false && someFunction();
+//task 5 :
+let score = 44;
+let result = score >= 33 ? 'pass' : 'fails';
+console.log(result);
