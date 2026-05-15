@@ -77,18 +77,18 @@
 
 // task4---
 function someFunction() {
-  console.log('Called');
+  // console.log('Called');
 }
 
 false && someFunction();
 //task 5 :
 let score = 44;
 let result = score >= 33 ? 'pass' : 'fails';
-console.log(result);
+// console.log(result);
 
 // task 56
 let number = 0;
-console.log(number || 'invalid');
+// console.log(number || 'invalid');
 //  task 7
 let bio = {
   name: 'shawon',
@@ -97,11 +97,26 @@ let bio = {
   },
   age: 44,
 };
-console.log(bio.address?.city);
-
+// console.log(bio.address?.city);
+// task 8
 let number2 = 10;
 number2 += 3;
 number2 -= 5;
 number2 *= 5;
 number2 /= 2;
-console.log(number2);
+// console.log(number2);
+// task 9
+let a = '2' + 2;
+let b = '2' - 2;
+let c = '2' * 2;
+let d = '6' / 2;
+// console.log(a, b, c, d);
+
+// task10
+let operate = 10;
+let resOperate =
+  operate % 2 == 0 && operate + 4 == 14 ? 'this is pure nmber' : 'fake number';
+// console.log(resOpersate);
+
+let x = 0;
+console.log(x || 'number is 0?');
