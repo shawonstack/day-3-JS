@@ -44,12 +44,22 @@
 // let resG = language == 'js' ? 'javascript' : 'unknown';
 // console.log(resG);
 
-let A = 0;
-// console.log(A || 'not name');
+// let A = null;
+// console.log(A ?? 'not name');
 
-let bio = {
-  name: 'shaon',
-  age: 33,
-  address: { city: 'dhaka' },
-};
-console.log(bio.address?.city);
+// let bio = {
+//   name: 'shaon',
+//   age: 33,
+//   address: { city: 'dhaka' },
+// };
+// console.log(bio.address?.city);
+
+// task 1
+let num1 = 33;
+let res1 = num1 % 2 == 0 ? 'even number' : 'odd numebr';
+console.log(res1);
+
+//task 2
+let num2 = 2;
+let res2 = num2 ** 10;
+console.log(res2);
