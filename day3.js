@@ -85,3 +85,7 @@ false && someFunction();
 let score = 44;
 let result = score >= 33 ? 'pass' : 'fails';
 console.log(result);
+
+// task 56
+let number = 0;
+console.log(number || 'invalid');
