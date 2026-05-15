@@ -98,3 +98,10 @@ let bio = {
   age: 44,
 };
 console.log(bio.address?.city);
+
+let number2 = 10;
+number2 += 3;
+number2 -= 5;
+number2 *= 5;
+number2 /= 2;
+console.log(number2);
